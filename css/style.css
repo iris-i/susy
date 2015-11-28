@@ -1,0 +1,75 @@
+/*==========Layouts==========*/
+/* ====== General Layout
+ * Setting the containers
+ */
+/* line 16, ../sass/_layout.scss */
+.general,
+.footer {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.2.7/sass/susy/output/support/_clearfix.scss */
+.general:after,
+.footer:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 21, ../sass/_layout.scss */
+.footer--double-width {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+/* line 24, ../sass/_layout.scss */
+.footer__left {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+/* line 27, ../sass/_layout.scss */
+.footer__right {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  float: right;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+/*========== Skin ======== */
+/*======== Styles==========*/
+/* Debug Styles */
+/*======= Styles for debugging ========= */
+/* line 3, ../sass/_debug.scss */
+footer > div {
+  height: 40px;
+}
+
+/* line 6, ../sass/_debug.scss */
+.footer--double-width {
+  background: #f5be57;
+}
+
+/* line 7, ../sass/_debug.scss */
+.footer__left {
+  background: #75a897;
+}
+
+/* line 8, ../sass/_debug.scss */
+.footer__right {
+  background: #9684f3;
+}

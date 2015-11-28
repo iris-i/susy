@@ -1,1 +1,30 @@
 /*==========Layouts==========*/
+// Initial Susy settings
+@import "susy";
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  gutter-position: inside,
+  container: 1280px,
+  container-position: center,
+);
+
+/* ====== General Layout
+ * Setting the containers
+ */
+.general,
+.footer {
+  @include container;
+}
+
+.footer--double-width {
+  @include span(12);
+}
+.footer__left {
+  @include span(6);
+}
+.footer__right {
+  @include span(6 at 7);
+}
+
